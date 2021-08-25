@@ -1,0 +1,4 @@
+﻿
+SystemUtil.CloseProcessByName "FlightsGUI.exe"	
+
+
