@@ -1,0 +1,12 @@
+﻿Set Homepage=Browser("name:=Advantage Shopping").page("title:= Advantage Shopping")
+
+Function ClickLink(linkobj)
+	Homepage.Link(linkobj).Click
+End Function
+
+Function navigateURL(URL, browsertype)
+	Set ie=Createobject(browsertype)
+       ie.Visible=true
+       ie.Navigate URL
+      Set ie=nothing
+End Function

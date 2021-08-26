@@ -1,0 +1,4 @@
+﻿Function capturebmp(objt, path)
+	ts = replace(replace(replace(now,"/",""),":","")," ","")  
+	objt.CaptureBitmap path & ts & ".png"
+End  Function
